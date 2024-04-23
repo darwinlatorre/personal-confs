@@ -1,0 +1,144 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Abernathy",
+      "font": {
+        "face": "GeistMono Nerd Font Mono"
+      }
+    },
+    "list": [
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#111416",
+      "black": "#000000",
+      "blue": "#1093F5",
+      "brightBlack": "#404040",
+      "brightBlue": "#11B5F6",
+      "brightCyan": "#00FFFF",
+      "brightGreen": "#30dd30",
+      "brightPurple": "#FF00FF",
+      "brightRed": "#FF0000",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#4DA8DA",
+      "cursorColor": "#BBBBBB",
+      "cyan": "#00CDCD",
+      "foreground": "#EEEEEC",
+      "green": "#009e00",
+      "name": "Abernathy",
+      "purple": "#CD00CD",
+      "red": "#CD0000",
+      "selectionBackground": "#EEEEEC",
+      "white": "#FAEBD7",
+      "yellow": "#2E86AB"
+    },
+    {
+      "background": "#1E1E1E",
+      "black": "#1A1A1A",
+      "blue": "#0869CB",
+      "brightBlack": "#464646",
+      "brightBlue": "#0A84FF",
+      "brightCyan": "#76D6FF",
+      "brightGreen": "#32D74B",
+      "brightPurple": "#BF5AF2",
+      "brightRed": "#FF453A",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFD60A",
+      "cursorColor": "#98989D",
+      "cyan": "#479EC2",
+      "foreground": "#FFFFFF",
+      "green": "#26A439",
+      "name": "Apple System Colors",
+      "purple": "#9647BF",
+      "red": "#CC372E",
+      "selectionBackground": "#3F638B",
+      "white": "#98989D",
+      "yellow": "#CDAC08"
+    },
+    {
+      "background": "#1E1E1E",
+      "black": "#000000",
+      "blue": "#2472C8",
+      "brightBlack": "#666666",
+      "brightBlue": "#3B8EEA",
+      "brightCyan": "#29B8DB",
+      "brightGreen": "#23D18B",
+      "brightPurple": "#D670D6",
+      "brightRed": "#F14C4C",
+      "brightWhite": "#E5E5E5",
+      "brightYellow": "#F5F543",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#11A8CD",
+      "foreground": "#CCCCCC",
+      "green": "#0DBC79",
+      "name": "Dark+",
+      "purple": "#BC3FBC",
+      "red": "#CD3131",
+      "selectionBackground": "#3A3D41",
+      "white": "#E5E5E5",
+      "yellow": "#E5E510"
+    }
+  ],
+  "themes": [],
+  "useAcrylicInTabRow": true
+}
